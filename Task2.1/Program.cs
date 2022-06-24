@@ -14,6 +14,7 @@ namespace Task2._1
             string message = Console.ReadLine();
             Console.WriteLine("Введите кол-во повторений");
             int timesOfRepeat = int.Parse(Console.ReadLine());
+            
             for(int i = 0; i < timesOfRepeat;i++) 
             {
                 Console.WriteLine(message);
